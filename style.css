@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(239, 250, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
+
+p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border: none;
+    font-size: 3rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+#rock{
+    background-color: blueviolet;
+}
+
+#paper{
+    background-color: orangered;
+}
+
+#scissors{
+    background-color: rgb(108, 216, 0);
+}
+
+#user-score{
+    color: deeppink;
+}
+
+#computer-score{
+    color: blue;
+}
